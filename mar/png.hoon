@@ -1,7 +1,7 @@
 |_  dat/@t
 ++  grow
   |%
-  ++  mime  [/image/jpeg (taco dat)]
+  ++  mime  [/image/png (taco dat)]
   --
 ++  grab
   |%
