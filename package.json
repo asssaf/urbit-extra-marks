@@ -1,0 +1,17 @@
+{
+  "name": "extra-marks",
+  "description": "Additional useful marks for urbit",
+  "homepage": "https://github.com/asssaf/urbit-extra-marks",
+  "items": [
+    {
+      "type": "fileset",
+      "base": "https://raw.githubusercontent.com/asssaf/urbit-extra-marks/master/src",
+      "rels": [
+        "/mar/jpg.hoon",
+        "/mar/gif.hoon",
+        "/mar/png.hoon"
+      ]
+    }
+  ]
+}
+
