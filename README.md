@@ -15,9 +15,9 @@ dojo> :package [%install %home (need (epur 'https://raw.githubusercontent.com/as
 ```
 
 ### Urbit Sync
-You can sync from `~dotnub-pocfex-mislep-davtex--faltyv-mallex-macfet-faspur`'s `%extra-marks` desk.
+You can sync from `~bidner-hadlev-napler-pittev--livdyl-ritrev-ropwyc-bitpub`'s `%extra-marks` desk.
 ```
-dojo> |sync %package ~dotnub-pocfex-mislep-davtex--faltyv-mallex-macfet-faspur %extra-marks
+dojo> |sync %package ~bidner-hadlev-napler-pittev--livdyl-ritrev-ropwyc-bitpub %extra-marks
 ```
 
 ### Manually
