@@ -9,7 +9,8 @@
       "rels": [
         "/mar/jpg.hoon",
         "/mar/gif.hoon",
-        "/mar/png.hoon"
+        "/mar/png.hoon",
+        "/mar/svg.hoon"
       ]
     }
   ]
