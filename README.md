@@ -6,6 +6,7 @@ Additional useful marks for urbit
 * jpg
 * gif
 * png
+* svg
 
 ## Install
 ### %package
