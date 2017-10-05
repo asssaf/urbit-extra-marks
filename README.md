@@ -12,7 +12,7 @@ Additional useful marks for urbit
 ### %package
 If you have [%package](https://github.com/asssaf/urbit-package) installed on your urbit:
 ```
-dojo> :package [%install %home (need (epur 'https://raw.githubusercontent.com/asssaf/urbit-extra-marks/master/package.json'))]
+dojo> :package|install %home "https://raw.githubusercontent.com/asssaf/urbit-extra-marks/master/package.json"
 ```
 
 ### Urbit Sync
