@@ -16,9 +16,9 @@ dojo> :package [%install %home (need (epur 'https://raw.githubusercontent.com/as
 ```
 
 ### Urbit Sync
-You can sync from `~bidner-hadlev-napler-pittev--livdyl-ritrev-ropwyc-bitpub`'s `%extra-marks` desk.
+You can sync from `~bidner-hadlev-napler-pittev--livdyl-ritrev-ropwyc-bitpub`'s `%dist-extra-marks` desk.
 ```
-dojo> |sync %package ~bidner-hadlev-napler-pittev--livdyl-ritrev-ropwyc-bitpub %extra-marks
+dojo> |sync %home ~bidner-hadlev-napler-pittev--livdyl-ritrev-ropwyc-bitpub %dist-extra-marks
 ```
 
 ### Manually
