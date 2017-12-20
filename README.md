@@ -16,9 +16,9 @@ dojo> :package|install %pkg "https://raw.githubusercontent.com/asssaf/urbit-extr
 ```
 
 ### Urbit Sync
-You can sync from `~bidner-hadlev-napler-pittev--livdyl-ritrev-ropwyc-bitpub`'s `%dist-extra-marks` desk.
+You can sync from the `%dist-extra-marks` desk on ![ship](https://img.shields.io/badge/dynamic/json.svg?label=ship&colorB=008bb8&prefix=&suffix=&query=$.our&uri=https://dist.u.replaythat.com/pages/badge.json).
 ```
-dojo> |sync %home ~bidner-hadlev-napler-pittev--livdyl-ritrev-ropwyc-bitpub %dist-extra-marks
+dojo> |sync %home ~dist-ship %dist-extra-marks
 ```
 
 ### Manually
