@@ -3,10 +3,68 @@
 ## Description
 Additional useful marks for urbit
 
+### Marks
+In `src/mar`:
 * jpg
 * gif
 * png
 * svg
+
+### Renderers
+Renderers for dynamic generation of xml, svg and json from hoon are included (in `src/ren`).
+
+For example, the following hoon file (placed in `/web/pages/file.hoon`):
+```
+> +http://localhost:8080/pages/file.hoon
+HTTP 200
+...
+content-type: text/x-hoon
+
+/=  our  /$  |=({bem/beam *} p.bem)
+%-  crip
+%-  en-xml:html
+;data
+  ;running-ship: {<our>}
+  ;i-can-add: {<(add 2 2)>}
+==
+```
+
+Will generate the following XML (when requested with .xml extension):
+```xml
+> +http://localhost:8080/pages/file.xml
+HTTP 200
+...
+content-type: application/xml
+
+<data><running-ship>~zod</running-ship><i-can-add>4</i-can-add></data>
+```
+
+Similarly for JSON:
+```
+> +http://localhost:8080/pages/file-json.hoon
+HTTP 200
+...
+content-type: text/x-hoon
+
+/=  our  /$  |=({bem/beam *} p.bem)
+=,  enjs:format
+%-  frond
+:-  'ship'
+%-  tape
+%+  scow
+  %p
+our
+```
+
+Will generate:
+```json
+> +http://localhost:8080/pages/file-json.json
+HTTP 200
+...
+content-type: application/json
+
+{"ship":"~zod"}
+```
 
 ## Install
 ### %package
