@@ -1,4 +1,6 @@
 # urbit-extra-marks
+[![package hash](https://img.shields.io/badge/dynamic/json.svg?label=%package%20hash&colorB=008bb8&prefix=&suffix=&query=$.hash&uri=https://raw.githubusercontent.com/asssaf/urbit-extra-marks/master/package.json)](https://raw.githubusercontent.com/asssaf/urbit-extra-marks/master/package.json)
+[![sync ship](https://img.shields.io/badge/dynamic/json.svg?label=sync%20ship&colorB=008bb8&prefix=&suffix=&query=$.our&uri=https://dist.u.replaythat.com/pages/badge.json)](#urbit-sync)
 
 ## Description
 Additional useful marks for urbit
