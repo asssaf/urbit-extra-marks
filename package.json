@@ -1,7 +1,7 @@
 {
   "name": "extra-marks",
   "description": "Additional useful marks for urbit",
-  "hash": "0vc.cdjiq.5nlmp.ddh44.vsdc4.0a6r7.pqlup.qkdd2.nooq1.b41e3.d0kiu",
+  "hash": "0v18.udvt3.c6lu8.hs1n3.a2pgf.m334f.ifs6g.ojl39.g80jp.rafse.htqcv",
   "homepage": "https://github.com/asssaf/urbit-extra-marks",
   "items": [
     {
@@ -11,9 +11,11 @@
         "/mar/jpg.hoon",
         "/mar/gif.hoon",
         "/mar/png.hoon",
-        "/mar/svg.hoon"
+        "/mar/svg.hoon",
+        "/ren/json.hoon",
+        "/ren/svg.hoon",
+        "/ren/xml.hoon"
       ]
     }
   ]
 }
-
